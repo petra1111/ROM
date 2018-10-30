@@ -27,4 +27,4 @@ Rezervirala sem si naslednje naloge:
 - 2
 
 ### [Uèni list - Kotne funkcije - 1.pdf](https://www.sc-nm.si/sss/file/open/607_ebc9fb02d961/U%C4%8Dni%20list%20-%20Kotne%20funkcije%20-%201.pdf)
-- 22
+- 22 
