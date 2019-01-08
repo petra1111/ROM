@@ -1,0 +1,488 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18785,        480]
+NotebookOptionsPosition[     17905,        456]
+NotebookOutlinePosition[     18247,        471]
+CellTagsIndexPosition[     18204,        468]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Module", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"cube", "=", 
+     RowBox[{"Cuboid", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Opacity", "[", ".0", "]"}], ",", 
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", "0.01"}], "]"}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", 
+           RowBox[{"2", "/", "3"}]}], "}"}]}], "]"}], ",", " ", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{
+            RowBox[{"-", "2"}], "/", "3"}], ",", 
+           RowBox[{"2", "/", "3"}]}], "}"}]}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"2", "/", "3"}], ",", 
+           RowBox[{
+            RowBox[{"-", "2"}], "/", "3"}], ",", 
+           RowBox[{"2", "/", "3"}]}], "}"}]}], "]"}], ",", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"2", "/", "3"}], ",", "0", ",", 
+           RowBox[{"2", "/", "3"}]}], "}"}]}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "0"}], "}"}]}], "]"}], ",", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"2", "/", "3"}], ",", "0", ",", "0"}], "}"}]}], "]"}], ",",
+        "\[IndentingNewLine]", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{
+            RowBox[{"-", "2"}], "/", "3"}], ",", "0"}], "}"}]}], "]"}], ",", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Scale", "[", 
+          RowBox[{"cube", ",", 
+           RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"2", "/", "3"}], ",", 
+           RowBox[{
+            RowBox[{"-", "2"}], "/", "3"}], ",", "0"}], "}"}]}], "]"}]}], 
+      "}"}], " ", ",", 
+     RowBox[{"Boxed", "\[Rule]", "False"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.755776010970925*^9, 3.7557762440706434`*^9}, {
+   3.7557762752154016`*^9, 3.755776293918032*^9}, 3.7557764570302663`*^9, 
+   3.7557764916602516`*^9, {3.7557765605417895`*^9, 3.755776585560174*^9}, {
+   3.7557766162640567`*^9, 3.7557768044420214`*^9}, {3.755776834881411*^9, 
+   3.755776958209924*^9}, {3.755776992702687*^9, 3.7557770443697977`*^9}, {
+   3.755777074984215*^9, 3.7557770814096713`*^9}, {3.755777125838192*^9, 
+   3.75577768547567*^9}, {3.7557777284913006`*^9, 3.7557778545947933`*^9}, {
+   3.7557778973036623`*^9, 
+   3.755777987336975*^9}},ExpressionUUID->"0760c0ff-2e10-4c35-b0cb-\
+bc76e0ed0751"],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {Opacity[0.], 
+    GeometricTransformation3DBox[
+     CuboidBox[{-1, -1, -1}, {1, 1, 1}], {{{0.01, 0., 0.}, {0., 0.01, 0.}, {
+      0., 0., 0.01}}, Center}]}, 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{0, 0, Rational[2, 3]}, {0, 0, 0.6666666666666666}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{0, Rational[-2, 3], Rational[2, 3]}, {
+     0, -0.6666666666666666, 0.6666666666666666}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{Rational[2, 3], Rational[-2, 3], Rational[2, 3]}, {
+     0.6666666666666666, -0.6666666666666666, 0.6666666666666666}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{Rational[2, 3], 0, Rational[2, 3]}, {
+     0.6666666666666666, 0, 0.6666666666666666}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], {0, 0, 0}], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{Rational[2, 3], 0, 0}, {0.6666666666666666, 0, 0}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{0, Rational[-2, 3], 0}, {0, -0.6666666666666666, 0}]], 
+   GeometricTransformation3DBox[
+    GeometricTransformation3DBox[CuboidBox[{-1, -1, -1}, {1, 1, 1}], 
+     NCache[{{{Rational[1, 3], 0, 0}, {0, Rational[1, 3], 0}, {
+        0, 0, Rational[1, 3]}}, 
+       Center}, {{{0.3333333333333333, 0, 0}, {0, 0.3333333333333333, 0}, {
+        0, 0, 0.3333333333333333}}, Center}]], 
+    NCache[{Rational[2, 3], Rational[-2, 3], 0}, {
+     0.6666666666666666, -0.6666666666666666, 0}]]},
+  Boxed->False,
+  ImageSize->{358.9054396723813, 336.02671375258035`},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{-1.3620770144957464`, 2.487942891273898, -1.8452334205574201`},
+  ViewVertical->{-0.9377624189336505, 
+   0.12649527188089973`, -0.32342014752869963`}]], "Output",
+ CellChangeTimes->{{3.7557773731810937`*^9, 3.755777442283205*^9}, {
+   3.7557774793366847`*^9, 3.755777686463812*^9}, {3.755777729277301*^9, 
+   3.7557777356957912`*^9}, 3.755778011153014*^9, 
+   3.755779334872285*^9},ExpressionUUID->"b42c84d6-755b-467f-8a22-\
+83119218a685"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"{", 
+   RowBox[{"Yellow", ",", " ", "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", "Red", ",", "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", 
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", "White", ",", "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", "\[IndentingNewLine]", 
+    "Orange", ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", "Green", ",", " ", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       RowBox[{"-", "1"}]}], "}"}], "]"}], ",", "Blue", ",", 
+    RowBox[{"Cuboid", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.755780314502121*^9, 3.7557805363525496`*^9}, {
+  3.755780572460272*^9, 3.755780751851551*^9}, {3.7557807950299997`*^9, 
+  3.7557808924545193`*^9}, {3.7557809359978228`*^9, 3.7557812549322166`*^9}, {
+  3.755781337918986*^9, 3.755781370473703*^9}, {3.7557814172360344`*^9, 
+  3.755781572557884*^9}, {3.755781720778592*^9, 3.755781791956001*^9}, {
+  3.7557856570258627`*^9, 
+  3.7557856756698294`*^9}},ExpressionUUID->"7a0c8aaf-adc9-4973-98e7-\
+e2b65f6bbe5d"],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {RGBColor[1, 1, 0], CuboidBox[{-1, 0, -1}], CuboidBox[{-1, 0, 0}], 
+    CuboidBox[{-1, 0, 1}], CuboidBox[{-1, -1, -1}], CuboidBox[{-1, -1, 0}], 
+    CuboidBox[{-1, -1, 1}], CuboidBox[{-1, 1, -1}], CuboidBox[{-1, 1, 0}], 
+    CuboidBox[{-1, 1, 1}], CuboidBox[{-1, -1, -1}], CuboidBox[{-1, 1, 1}]}, 
+   {RGBColor[1, 0, 0], CuboidBox[{1, 0, -1}], CuboidBox[{1, 0, 0}], 
+    CuboidBox[{1, 0, 1}], CuboidBox[{1, -1, -1}], CuboidBox[{1, -1, 0}], 
+    CuboidBox[{1, -1, 1}], CuboidBox[{1, 1, -1}], CuboidBox[{1, 1, 0}], 
+    CuboidBox[{1, 1, 1}], CuboidBox[{1, -1, -1}], CuboidBox[{1, 1, 1}]}, 
+   {GrayLevel[1], CuboidBox[{0, 1, -1}], CuboidBox[{0, 1, 0}], 
+    CuboidBox[{0, 1, 1}], CuboidBox[{0, 1, -1}], CuboidBox[{0, 1, 0}], 
+    CuboidBox[{0, 1, 1}], CuboidBox[{0, 1, -1}], CuboidBox[{0, 1, 0}], 
+    CuboidBox[{0, 1, 1}], CuboidBox[{0, 1, -1}]}, 
+   {RGBColor[1, 0.5, 0], CuboidBox[{0, -1, 0}]}, 
+   {RGBColor[0, 1, 0], CuboidBox[{0, 0, -1}]}, 
+   {RGBColor[0, 0, 1], CuboidBox[{0, 0, 1}]}},
+  ImageSize->{368.7367007908555, 401.90146092717606`},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{2.47064643631359, 0.7319211218689284, -2.193216281649647},
+  ViewVertical->{-0.27538402253794697`, 
+   0.5835974593020321, -0.7639225390227943}]], "Output",
+ CellChangeTimes->{
+  3.7557806492587132`*^9, 3.7557807531896524`*^9, {3.7557808446154966`*^9, 
+   3.7557808936083436`*^9}, {3.7557809386231413`*^9, 
+   3.7557809719949217`*^9}, {3.755781004953057*^9, 3.755781025595235*^9}, {
+   3.755781056299616*^9, 3.7557811011376133`*^9}, 3.7557812282128563`*^9, 
+   3.755781353514985*^9, 3.7557814434863873`*^9, {3.755781548823324*^9, 
+   3.755781574565237*^9}, 3.755781763291437*^9, 
+   3.755781793461738*^9},ExpressionUUID->"d5dfb838-e318-4844-8a31-\
+407129964128"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Cuboid", "[", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "j", ",", "k"}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "0", ",", "2", ",", "1"}], "}"}], ",", "\n", "\t", 
+     RowBox[{"{", 
+      RowBox[{"j", ",", "0", ",", "2", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"k", ",", "0", ",", "2", ",", "1"}], "}"}]}], "]"}], ",", 
+   RowBox[{"Boxed", "->", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7557849332504883`*^9, 
+  3.755784946599077*^9}},ExpressionUUID->"783fe450-b26d-41c3-8523-\
+917c6fb9f169"],
+
+Cell[BoxData[
+ Graphics3DBox[{{{CuboidBox[{0, 0, 0}], CuboidBox[{0, 0, 1}], 
+     CuboidBox[{0, 0, 2}]}, {CuboidBox[{0, 1, 0}], CuboidBox[{0, 1, 1}], 
+     CuboidBox[{0, 1, 2}]}, {CuboidBox[{0, 2, 0}], CuboidBox[{0, 2, 1}], 
+     CuboidBox[{0, 2, 2}]}}, {{CuboidBox[{1, 0, 0}], CuboidBox[{1, 0, 1}], 
+     CuboidBox[{1, 0, 2}]}, {CuboidBox[{1, 1, 0}], CuboidBox[{1, 1, 1}], 
+     CuboidBox[{1, 1, 2}]}, {CuboidBox[{1, 2, 0}], CuboidBox[{1, 2, 1}], 
+     CuboidBox[{1, 2, 2}]}}, {{CuboidBox[{2, 0, 0}], CuboidBox[{2, 0, 1}], 
+     CuboidBox[{2, 0, 2}]}, {CuboidBox[{2, 1, 0}], CuboidBox[{2, 1, 1}], 
+     CuboidBox[{2, 1, 2}]}, {CuboidBox[{2, 2, 0}], CuboidBox[{2, 2, 1}], 
+     CuboidBox[{2, 2, 2}]}}},
+  Boxed->False,
+  ImageSize->{373.52607041812337`, 398.0574404265872},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{1.0376444728153162`, -2.642862400112509, 1.8408075081624844`},
+  ViewVertical->{-0.16579587385225839`, -0.14214226663605384`, 
+   0.9758623387799794}]], "Output",
+ CellChangeTimes->{
+  3.755784948241144*^9},ExpressionUUID->"1ebb3afe-ca6e-4f2b-b356-\
+0897e1e68b5d"]
+}, Open  ]]
+},
+WindowSize->{1600, 817},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4075, 111, 124, "Input",ExpressionUUID->"0760c0ff-2e10-4c35-b0cb-bc76e0ed0751"],
+Cell[4658, 135, 3994, 75, 353, "Output",ExpressionUUID->"b42c84d6-755b-467f-8a22-83119218a685"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8689, 215, 5637, 163, 333, "Input",ExpressionUUID->"7a0c8aaf-adc9-4973-98e7-e2b65f6bbe5d"],
+Cell[14329, 380, 1784, 30, 419, "Output",ExpressionUUID->"d5dfb838-e318-4844-8a31-407129964128"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16150, 415, 657, 17, 48, "Input",ExpressionUUID->"783fe450-b26d-41c3-8523-917c6fb9f169"],
+Cell[16810, 434, 1079, 19, 415, "Output",ExpressionUUID->"1ebb3afe-ca6e-4f2b-b356-0897e1e68b5d"]
+}, Open  ]]
+}
+]
+*)
+
